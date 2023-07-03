@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://mobimg.b-cdn.net/v3/fetch/cd/cda72a0b86286b25b22adb833312b6be.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 18vh;
+}
+
+header img{
+    width: 5.5vh;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30vh;
+}
+
+h2{
+    color: white;
+    font-size: 20px;
+}
+
+ul{
+display: flex;
+justify-content: space-around;
+align-items: center;
+list-style: none;
+width: 32vw;
+height: 17vh;
+}
+
+a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+   
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.bruxo{
+    display: flex;
+    position: absolute;
+    width: 38vw;
+    margin-top: 75vh;
+}
+
+
+.logo{
+    display: flex;
+    position: absolute;
+    margin-top: 105vh;
+}
+
+.botao{
+    display: flex;
+    position: absolute;
+    margin-top: 150vh;
+}
